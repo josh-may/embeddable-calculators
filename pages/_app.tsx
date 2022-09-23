@@ -15,14 +15,17 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
-    <div className="bg-black">
-      <UserProvider supabaseClient={supabaseClient}>
+    <div className="">
+      {/* <div className="bg-black"> */}
+      <Component {...pageProps} />
+
+      {/* <UserProvider supabaseClient={supabaseClient}>
         <MyUserContextProvider supabaseClient={supabaseClient}>
           <Layout>
             <Component {...pageProps} />
           </Layout>
         </MyUserContextProvider>
-      </UserProvider>
+      </UserProvider> */}
     </div>
   );
 }

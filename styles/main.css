@@ -7,7 +7,7 @@
 *:after {
   box-sizing: inherit;
 }
-
+/* 
 *:focus {
   @apply outline-none ring-2 ring-pink-500 ring-opacity-50;
 }
@@ -49,4 +49,4 @@ a {
 
 .height-screen-helper {
   height: calc(100vh - 80px);
-}
+} */
