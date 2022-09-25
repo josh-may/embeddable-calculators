@@ -69,11 +69,10 @@
   padding: 0px 7px;
 }
 
-#I_8,
-#I_16 {
+#dollarSign {
   position: absolute;
-  right: 465.174px;
-  top: 17.5px;
+  right: 277px;
+  top: 17px;
   transform: matrix(1, 0, 0, 1, 0, -15);
   width: 12.8472px;
   font: 500 13px / 30px Gotham, Helvetica, Arial, sans-serif;
