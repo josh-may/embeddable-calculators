@@ -3,16 +3,14 @@ body {
   border: 0px;
   margin: 0px;
   padding: 0px;
+
+  background-color: beige;
 }
 #calculatorWidget {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
-  border: black 0.2px solid;
   display: block;
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
   margin: 0;
   padding: 25px;
   width: 300px;
@@ -49,6 +47,7 @@ body {
 #cpmContainer {
   margin-top: 2px;
   margin-bottom: 2px;
+
   font: 500 18px Gotham, Helvetica, Arial, sans-serif;
 }
 
@@ -106,9 +105,7 @@ body {
   content: '"The total cost or budget of the campaign."';
   display: block;
   height: 17.9861px;
-  inline-size: 488.021px;
   margin-block-end: 5px;
-  width: 488.021px;
   font: 12px Gotham, Helvetica, Arial, sans-serif;
   margin: 0px 0px 5px;
 }
@@ -130,6 +127,7 @@ body {
 
 #impressionInput:before {
   box-sizing: border-box;
+
   font: 23px Arial;
 }
 
@@ -138,6 +136,7 @@ body {
   content: '"The cost per a thousand impressions."';
   display: block;
   height: 17.9861px;
+
   width: 488.021px;
   border: 0px none rgb(128, 128, 128);
   font: 12px / 18px Gotham, Helvetica, Arial, sans-serif;
@@ -162,6 +161,7 @@ body {
 #inputWarning {
   box-sizing: border-box;
   caret-color: rgb(255, 0, 0);
+
   color: rgb(255, 0, 0);
   font: italic 14px / 21px Gotham, Helvetica, Arial, sans-serif;
 }
@@ -191,6 +191,7 @@ body {
   color: rgb(128, 128, 128);
   content: '"The impressions that the campaign received."';
   display: block;
+
   height: 17.9861px;
   width: 100%;
   font: 12px / 18px Gotham, Helvetica, Arial, sans-serif;
