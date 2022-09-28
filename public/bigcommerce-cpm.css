@@ -78,10 +78,10 @@ body {
 
 #dollarSign {
   position: absolute;
-  right: 277px;
+  right: 283px;
   top: 17px;
   transform: matrix(1, 0, 0, 1, 0, -15);
-  width: 12.8472px;
+
   font: 500 13px / 30px Gotham, Helvetica, Arial, sans-serif;
   color: rgb(128, 128, 128);
 }
@@ -137,7 +137,6 @@ body {
   display: block;
   height: 17.9861px;
 
-  width: 488.021px;
   border: 0px none rgb(128, 128, 128);
   font: 12px / 18px Gotham, Helvetica, Arial, sans-serif;
   margin: 0px 0px 5px;
