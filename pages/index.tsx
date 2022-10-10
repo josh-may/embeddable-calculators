@@ -8,7 +8,10 @@ interface Props {
 }
 
 export default function PricingPage({ products }: Props) {
-  return <Pricing products={products} />;
+  return (
+    <div>Hello world</div>
+    //   <Pricing products={products} />;
+  );
 }
 
 export async function getStaticProps(): Promise<GetStaticPropsResult<Props>> {
